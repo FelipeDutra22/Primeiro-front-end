@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+} 
+
+.titulo {
+    padding: 25.5px 0px 32.5px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__apps__opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 0px 50.5px 0px;
+}
+
+.main__facebook {
+    display: inline-flex;
+    align-items: center;
+    gap: 12.5px;
+    text-decoration: none;
+    background-color: #3B5998;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 14px 90.12px 14px 90.12px;
+    border-radius: 500px;
+}
+
+.main__apple {
+    display: inline-flex;
+    align-items: center;
+    gap: 12.5px;
+    text-decoration: none;
+    background-color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 14px 110.22px 14px 110.22px;
+    border-radius: 500px;    
+}
+
+.main__inputs {
+    padding: 30px 0px 16.5px 0px;
+    display: flex;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main__form__div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.main__form__div__label {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+input {
+    display: block;
+    width: 450px;
+    height: 52px;
+}
+
+input::placeholder {
+padding: 0 0 0 14px;
+}
+
+.main__forgot__button {
+    display: flex;
+    gap: 160.66px;
+}
+
+.main__forgot__password {
+    text-decoration: none;
+    color: #3B5998;
+     font-family: "Inter", sans-serif;
+}
+
+button {
+    margin: 0px 0px 22px 0px;
+    background-color: #1ED760;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 124.13px;
+    height: 48px;
+    border-radius: 500px;
+    border: none;
+}
+
+.main__not__account {
+    padding: 17.5px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}
+
+.main__not__account__p {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.main__sigin__button {
+    text-decoration: none;
+    color: #6A6A6A;
+    border: 1px solid #878787;
+    border-radius: 500px;
+    padding: 14px 135px 14px 135px;
+     font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
